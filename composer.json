@@ -1,0 +1,18 @@
+{
+    "name": "helmes/basic-submit-form",
+    "description": "Basic submit form with DB",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.0",
+        "ext-soap": "*",
+        "ext-pdo": "*",
+        "ext-ctype": "*",
+        "vlucas/phpdotenv": "5.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "site"
+        }
+    }
+}
